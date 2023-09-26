@@ -21,6 +21,7 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossOrigin='anonymous'></link>
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
